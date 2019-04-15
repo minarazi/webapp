@@ -1,0 +1,20 @@
+<body>
+	<h1>Author List</h1>
+
+	<table>
+		<tbody>
+			<tr>
+				<th>ID</th>
+				<th>First Name</th>
+				<th>Last</th>
+			</tr>
+			<tr th:each="author : ${allAuthors}">
+				<td th:text="${author.id}">123</td>
+				<td th:text="${author.firstName}">Joe</td>
+				<td th:text="${author.lastName}">Buck</td>
+			</tr>
+		</tbody>
+	</table>
+
+
+</body>

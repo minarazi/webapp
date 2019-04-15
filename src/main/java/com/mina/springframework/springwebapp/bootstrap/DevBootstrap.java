@@ -14,6 +14,7 @@ import com.mina.springframework.springwebapp.repositories.PublisherRepository;
 @Component
 public class DevBootstrap implements ApplicationListener<ContextRefreshedEvent> {
 
+	
 	private AuthorRepository authorRepository;
 	private BookRepository bookRepository;
 	private PublisherRepository publisherRepository;
